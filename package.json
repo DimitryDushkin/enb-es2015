@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "ENB technology for compiling JS es2015 -> es5",
   "author": "Dmitry Dushkin (dndushkin@gmail.com)",
-  "repository": "git://github.com/DimitryDushkin/enb-es2015s",
+  "repository": "git://github.com/DimitryDushkin/enb-es2015",
   "homepage": "https://github.com/DimitryDushkin/enb-es2015",
   "bugs": "https://github.com/DimitryDushkin/enb-es2015/issues",
   "license": "ISC",
