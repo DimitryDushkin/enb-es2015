@@ -1,6 +1,6 @@
 {
   "name": "enb-es2015",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "ENB technology for compiling JS es2015 -> es5",
   "author": "Dmitry Dushkin (dndushkin@gmail.com)",
   "repository": "git://github.com/DimitryDushkin/enb-es2015",
@@ -8,17 +8,17 @@
   "bugs": "https://github.com/DimitryDushkin/enb-es2015/issues",
   "license": "ISC",
   "dependencies": {
-    "enb": ">= 1.0.0",
-    "enb-source-map": ">= 1.8.0",
-    "babel-core": "^6.7.2",
-    "babel-plugin-transform-es2015-arrow-functions": "^6.5.2",
-    "babel-plugin-transform-es2015-block-scoped-functions": "^6.6.5",
-    "babel-plugin-transform-es2015-block-scoping": "^6.7.1",
-    "babel-plugin-transform-es2015-destructuring": "^6.6.5",
-    "babel-plugin-transform-es2015-function-name": "^6.5.0",
-    "babel-plugin-transform-es2015-parameters": "^6.7.0",
-    "babel-plugin-transform-es2015-shorthand-properties": "^6.5.0",
-    "babel-plugin-transform-es2015-spread": "^6.6.5",
-    "babel-plugin-transform-es2015-template-literals": "^6.6.5"
+    "enb": ">=1.3.0",
+    "enb-source-map": ">=1.9.0",
+    "babel-core": "^6.9.1",
+    "babel-plugin-transform-es2015-arrow-functions": "^6.8.0",
+    "babel-plugin-transform-es2015-block-scoped-functions": "^6.8.0",
+    "babel-plugin-transform-es2015-block-scoping": "^6.9.0",
+    "babel-plugin-transform-es2015-destructuring": "^6.9.0",
+    "babel-plugin-transform-es2015-function-name": "^6.9.0",
+    "babel-plugin-transform-es2015-parameters": "^6.9.0",
+    "babel-plugin-transform-es2015-shorthand-properties": "^6.8.0",
+    "babel-plugin-transform-es2015-spread": "^6.8.0",
+    "babel-plugin-transform-es2015-template-literals": "^6.8.0"
   }
 }
