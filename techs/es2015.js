@@ -35,7 +35,11 @@ module.exports = buildFlow.create()
                 for (var i = 0; i < sources.length; i++) {
                     file  += '/* begin: ' + sources[i].relPath + ' */\n';
 
-                    if (sources[i].relPath.indexOf('/libs/') !== -1) {
+                    if (
+                        sources[i].relPath.indexOf('/libs/') > -1
+                        // symbolic links leads to libs, so do not compile them
+                        || fs.lstatSync(sources[i].path).isSymbolicLink()
+                    ) {
                         file += sources[i].contents;
                     } else {
                         file += babel.transform(sources[i].contents, babelOptions).code;
