@@ -6,17 +6,7 @@ var vow = require('vow'),
     buildFlow = enb.buildFlow || require('enb/lib/build-flow'),
     babel = require('babel-core'),
     babelOptions = {
-        plugins: [
-            'transform-es2015-arrow-functions',
-            'transform-es2015-block-scoped-functions',
-            'transform-es2015-function-name',
-            'transform-es2015-block-scoping',
-            'transform-es2015-destructuring',
-            'transform-es2015-parameters',
-            'transform-es2015-shorthand-properties',
-            'transform-es2015-spread',
-            'transform-es2015-template-literals'
-        ],
+        presets: ['es2015'],
         compact: false
     };
 
